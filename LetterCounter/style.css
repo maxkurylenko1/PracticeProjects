@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(250, 17, 17);
+}
+
+.conteiner {
+  display: flex;
+  justify-content: center;
+}
+
+#text {
+  font-family: "Bebas Neue", cursive;
+  font-size: 100px;
+}
+
+#divInput {
+  display: inline-block;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+#inputText {
+  font-size: 20px;
+  height: 30px;
+  width: 300px;
+}
+
+#divText {
+  text-align: center;
+}
+
+#letterCounterText {
+  font-family: "Bebas Neue", cursive;
+  padding-top: 20px;
+  margin-top: 10px;
+}
+
+#count {
+  font-size: 30px;
+}
