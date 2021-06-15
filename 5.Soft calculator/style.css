@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+}
+
+#result {
+  background-color: white;
+  border: 1px solid black;
+  width: 10px;
+}
+
+.inputWidth {
+  width: 130px;
+}
+
+.calculator {
+  display: inline-block;
+  border: 3px solid black;
+}
+
+.operators {
+  display: flex;
+  justify-items: start;
+}
+
+.operatorsBtns {
+  margin: 2px;
+  outline: none;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+}
