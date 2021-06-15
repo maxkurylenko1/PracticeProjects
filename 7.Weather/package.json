@@ -1,0 +1,32 @@
+{
+  "name": "7.weather",
+  "version": "1.0.0",
+  "description": "weather traking",
+  "main": "html.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Max",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fetch": "^1.1.0",
+    "mongodb": "^3.6.6",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2",
+    "require": "^2.4.20",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1"
+  }
+}
