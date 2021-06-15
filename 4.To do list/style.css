@@ -1,0 +1,154 @@
+body {
+  background-color: rgb(230, 29, 29);
+  text-align: center;
+}
+
+.titleText {
+  padding: 0;
+  margin: 0;
+  font-size: 100px;
+  font-family: "Yeon Sung", cursive;
+}
+
+.addBlock {
+  display: inline-block;
+  width: 500px;
+  text-align: center;
+}
+
+.conteiner {
+  display: flex;
+  justify-content: center;
+}
+
+.inConteiner {
+  display: flex;
+  justify-content: center;
+}
+
+.removeAllButton {
+  position: absolute;
+  top: 10px;
+}
+
+.noteInput {
+  margin: 0;
+  padding: 0;
+  height: 27px;
+  color: rgb(235, 182, 182);
+  background-color: rgb(104, 68, 68);
+  border: solid rgb(27, 27, 27);
+  border-width: 4px 2px 4px 4px;
+  font-family: "Yeon Sung", cursive;
+  font-size: large;
+  outline: none;
+}
+
+.addButton {
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  height: 35px;
+  color: rgb(235, 182, 182);
+  background-color: rgb(104, 68, 68);
+  border: solid rgb(27, 27, 27);
+  border-width: 4px 4px 4px 3px;
+  font-family: "Yeon Sung", cursive;
+  font-size: large;
+  outline: none;
+  text-align: center;
+}
+
+#checkLocalMemory {
+  font-size: 1.2em;
+  margin: 1%;
+  width: 180px;
+}
+
+#clearLocalMemory {
+  font-size: 1.2em;
+  margin: 1%;
+  width: 180px;
+}
+
+.addButton:active {
+  background-color: rgb(63, 40, 40);
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(235, 182, 182);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgb(235, 182, 182);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgb(235, 182, 182);
+}
+
+/* .noteNameInput {
+  padding: 0;
+  margin: 0;
+  width: 100px;
+  height: 27px;
+  color: rgb(235, 182, 182);
+  background-color: rgb(104, 68, 68);
+  border: solid rgb(27, 27, 27);
+  border-width: 4px 1px 4px 4px;
+  font-family: "Yeon Sung", cursive;
+  font-size: large;
+  outline: none;
+} */
+
+.contentBlock:empty {
+  display: none;
+}
+
+.contentBlock {
+  margin-top: 10px;
+  display: inline-block;
+  width: 450px;
+  border: 4px solid rgb(27, 27, 27);
+}
+
+.Note {
+  padding-left: 1%;
+  font-size: large;
+  font-family: "Yeon Sung", cursive;
+}
+
+.NoteBlock {
+  text-align: left;
+  margin: 4px;
+  color: rgb(235, 182, 182);
+  background-color: rgb(104, 68, 68);
+  border: solid rgb(27, 27, 27);
+  word-wrap: break-word;
+}
+
+.RemoveButton {
+  float: right;
+  clear: both;
+  color: rgb(235, 182, 182);
+  background-color: rgb(104, 68, 68);
+  border: none;
+  outline: none;
+  font-size: 100%;
+  font-family: "Yeon Sung", cursive;
+}
+
+.RemoveButton:active {
+  background-color: rgb(63, 40, 40);
+}
+
+/* .tmpNoteName {
+  font-family: "Yeon Sung", cursive;
+  border: solid black;
+  padding: 1px;
+  margin: 1px;
+} */
